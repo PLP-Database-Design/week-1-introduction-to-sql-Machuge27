@@ -2,21 +2,19 @@
 
 #### 1. State and Explain the components of a DBMS(Database Management System)
 
-A Database Management System (DBMS) is composed of several key components that work together to manage data effectively. These components include:
+A database consists of several key components that work together to store, manage, and retrieve data effectively. These components include:
 
-- **Storage Engine**: The core component that interacts with the file system to store and retrieve data.
+- **Hardware**: This refers to the physical devices such as servers, computers, storage systems, and input/output devices that are necessary for running the database management system (DBMS) and storing data.
 
-- **Query Language**: A standardized language used to perform (CRUD) operations on the data, such as SQL (Structured Query Language).
+- **Software**: The DBMS itself is a crucial software component that provides users with tools to create, manage, and manipulate databases. It includes the operating system and any applications used to interact with the database.
 
-- **Query Processor**: This interprets user queries and translates them into commands that the DBMS can execute.
+- **Data**: This is the core component of any database, encompassing both operational data (the actual information stored) and metadata (data about the data, such as structure and constraints).
 
-- **Optimization Engine**: Enhances performance by optimizing query execution plans and database structure.
+- **Database Access Language**: A programming language, often SQL (Structured Query Language), used to perform operations on the data within the database, such as querying, updating, and managing data.
 
-- **Metadata Catalog**: A repository that stores metadata about the database objects, helping in managing and accessing data efficiently.
+- **Procedures**: These are defined rules and guidelines that dictate how users can access and manipulate the data within the database. They ensure consistency and security in data handling.
 
-- **Log Manager**: Keeps track of all transactions and changes made to the database, which is essential for recovery and auditing.
-
-- **Reporting and Monitoring Tools**: These tools help in generating reports and monitoring database performance and usage statistics.
+- **People**: Users who interact with the database system, including database administrators, developers, and end-users who input or query data.
 
 ### 2. What is a relational database? Give 4 examples.
 
